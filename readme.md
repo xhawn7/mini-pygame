@@ -1,5 +1,5 @@
-## 先安装依赖pygame
-## python main.py启动项目
+先安装依赖pygame
+`python main.py`启动项目
 1. space-shooting:
 初探pygame的一个项目，主要学习pygame的基本设置以及元素的二维移动。
 与原作者相比，我用class作了一些方法的封装。
