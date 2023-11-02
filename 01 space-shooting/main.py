@@ -10,6 +10,7 @@ window = pygame.display.set_mode((800,600))
 icon = pygame.image.load('ufo.png')
 pygame.display.set_icon(icon)
 pygame.mixer.Sound('background.wav').play(-1)
+pygame.display.set_caption('Space Shooting')
 class Element:
   def __init__(self,img,x=0,y=0,x_add=0,y_add=0):
     self.img = img
